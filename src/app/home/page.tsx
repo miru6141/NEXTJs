@@ -3,7 +3,6 @@
 import React from 'react';
 //import { cn } from "@/lib/utils";
 import { Spotlight } from "@/components/ui/spotlight";
-import { WavyBackground } from "@/components/ui/wavy-background";
 import {TypewriterEffectDemo} from '@/app/typewritter/page'
 import {LampDemo} from "@/components/lampeffect/lapeffect"
 import {CardHoverEffectDemo} from "@/components/hovercard/hovercard"
@@ -16,17 +15,6 @@ import {BackgroundBeamsWithCollisionDemo} from '@/components/beambackground/beam
 
 
 
-interface FeatureProps {
-  title: string;
-  description: string;
-}
-
-const Feature: React.FC<FeatureProps> = ({ title, description }) => (
-  <div className="bg-red-200 shadow-lg rounded-lg p-6 relative transition-transform duration-300 hover:scale-105">
-    <h3 className="text-lg font-bold text-gray-900">{title}</h3>
-    <p className="mt-2 text-gray-600">{description}</p>
-  </div>
-);
 
 const First: React.FC = () => {
   
