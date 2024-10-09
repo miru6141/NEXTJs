@@ -10,7 +10,13 @@ export function BackgroundLinesDemo() {
       < p className="max-w-xl mx-auto text-sm md:text-lg  text-white text-center">
       📞 +91 75429 87786 <br/>  +91 84097 09154
       </p>
-      <p className="text-lg text-white">📧 teckontechsolutions@gmail.com   </p>
+      <p className="text-lg text-white"> 📧 
+  <a 
+    href="mailto:teckontechsolutions@gmail.com" 
+    className="hover:underline"
+  >
+    teckontechsolutions@gmail.com
+  </a>  </p>
            
     </BackgroundLines>
   );

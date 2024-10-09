@@ -14,7 +14,7 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-sm font-small tracking-tight text-transparent md:text-xl"
+        className="sm:mt-8 mt-4  bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-sm font-small tracking-tight text-transparent md:text-xl"
       >
         <h1 className="text-2xl font-bold text-blue-800">Why Choose Us?</h1>
 
