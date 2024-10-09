@@ -3,7 +3,7 @@
 import React from 'react';
 //import { cn } from "@/lib/utils";
 import { Spotlight } from "@/components/ui/spotlight";
-import {TypewriterEffectDemo} from '@/app/typewritter/page'
+import {TypewriterEffectDemo} from '@/app/typewritter/typewritter'
 import {LampDemo} from "@/components/lampeffect/lapeffect"
 import {CardHoverEffectDemo} from "@/components/hovercard/hovercard"
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
