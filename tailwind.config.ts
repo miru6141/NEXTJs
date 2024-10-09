@@ -17,11 +17,11 @@ const config: Config = {
 		  keyframes: {
 			spotlight: {
 			  "0%": {
-				opacity: 0,
+				opacity: "zero",
 				transform: "translate(-72%, -62%) scale(0.5)",
 			  },
 			  "100%": {
-				opacity: 1,
+				opacity: "one",
 				transform: "translate(-50%,-40%) scale(1)",
 			  },
 			},
@@ -29,6 +29,7 @@ const config: Config = {
   		
   	}
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate",)
   ],
 };
